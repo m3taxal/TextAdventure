@@ -1,0 +1,35 @@
+@font-face{
+    src: url("/dpcomic.ttf");
+}
+
+#gameBackground{
+    -fx-background-color: "black";
+}
+
+#gameDialogue .content{
+    -fx-background-color: "black";
+}
+
+#gameDialogue{
+    -fx-text-fill: "green";
+    -fx-font-size: 30px;
+    -fx-font-family: "dpcomic";
+    -fx-background-color: #fff, #fff;
+}
+
+#gameDialogue .scroll-bar:vertical {
+    -fx-pref-width: 1;
+    -fx-opacity: 0;
+}
+#gameDialogue .scroll-bar:horizontal {
+    -fx-pref-height: 1;
+    -fx-opacity: 0;
+}
+
+#playerInput{
+    -fx-resize: none;
+    -fx-background-color: "black";
+    -fx-text-fill: "green";
+    -fx-font-size: 30px;
+    -fx-font-family: "dpcomic";
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="gameBackground" prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gameController">
+   <children>
+      <TextField fx:id="playerInput" layoutX="37.0" layoutY="460.0" onAction="#addToGameDialogue" prefHeight="40.0" prefWidth="963.0" />
+      <TextArea fx:id="gameDialogue" layoutX="14.0" layoutY="14.0" prefHeight="428.0" prefWidth="972.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-46.0" layoutY="411.0" pickOnBounds="true" preserveRatio="true" scaleX="0.2" scaleY="0.2" AnchorPane.bottomAnchor="-61.0" AnchorPane.leftAnchor="-46.0" AnchorPane.rightAnchor="896.0" AnchorPane.topAnchor="411.0">
+         <image>
+            <Image url="@pixel_triangle.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

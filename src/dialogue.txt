@@ -1,0 +1,12 @@
+You are captured in an underground cell inside a dungeon. If you don't do anything in the next few seconds, you will most likely die.
+What do you do?
+Rot in your cell
+Unlock the cell with the key next to you
+Congratulations, you died on the first choice!
+You unlocked the cell with the key. However, now you stand in an empty and dark hallway.
+How will you continue?
+March forward, like the brave man you are
+Stay just where you are and wait
+You march forward until you bump into something huge and sturdy - before you can even notice what's happening, you've already lost consciousness and, sadly, your life.
+You wait for a while until you see a light at the end of the hallway. You think it's a good idea to approach it, and when you finally reach it, you find yourself in an open field.
+Congratulations, you escaped the dungeon!

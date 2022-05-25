@@ -1,0 +1,1 @@
+simple, bad text adventure
