@@ -3,7 +3,7 @@ import java.util.HashMap;
 
 public class PlayerLines{
     private final HashMap<String, int[]> playerLinesInfo;
-    private final ArrayList<String> currentPlayerLines;
+    public final ArrayList<String> currentPlayerLines;
 
     public PlayerLines(ArrayList<String> gameText){
         playerLinesInfo = new HashMap<>();

@@ -31,12 +31,13 @@ public class GameController implements Initializable {
     /**
      * Get game text from given filepath.
      */
-    private void getAllGameLines(){
+    public void setAllGameLines(String filepath){
         gameText = new ArrayList<>();
         try{
-            File gameLines = new File(Main.dialogueFilePath);
+            File gameLines = new File(filepath);
             Scanner reader = new Scanner(gameLines);
             while (reader.hasNextLine()){
+                //reader.nextLine() ignores the newlines...
                 gameText.add(reader.nextLine());
             }
             reader.close();
@@ -78,7 +79,7 @@ public class GameController implements Initializable {
      * @param linesToCombine    lines to be combined
      * @return                  combined String
      */
-    private String combineLines(List<String> linesToCombine){
+    public String combineLines(List<String> linesToCombine){
         StringBuilder temp = new StringBuilder();
         for (String line:
              linesToCombine) {
@@ -120,7 +121,7 @@ public class GameController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         gameDialogue.setEditable(false);
-        getAllGameLines();
+        setAllGameLines(Main.dialogueFilePath);
 
         playerLines = new PlayerLines(gameText);
 
