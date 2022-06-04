@@ -4,7 +4,7 @@ A simple, badly made DIY TextAdventure Game.
 # Configure
 You will need any [JavaFX](https://gluonhq.com/products/javafx/) version equal or above JavaFX11.
 Download the compiled [JAR file](https://github.com/m3taxal/TextAdventure/releases/tag/v1.0.0).
-In the directory of the JAR file, you need to create a text file which contains all of the game's text.
+Additionally, you need to create a text file which contains all of the game's text.
 
 # Make the game
 Here is some example game text:
