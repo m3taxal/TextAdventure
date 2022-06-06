@@ -6,7 +6,7 @@ You will need any [JavaFX](https://gluonhq.com/products/javafx/) version equal o
 Download the compiled [JAR file](https://github.com/m3taxal/TextAdventure/releases/tag/v1.0.0).
 Additionally, you need to create a text file which contains all of the game's text.
 
-# Make the game
+# Create your game
 Here is some example game text:
 ```
 You are captured in an underground cell inside a dungeon.
@@ -30,4 +30,4 @@ The command for running the JAR file looks like this:
 ```
 java -jar --module-path path/to/javafx/lib --add-modules javafx.controls,javafx.fxml TextAdventure.jar --startEndLine=5 --filepath=path/to/dialogue.txt
 ```
-The arguments "--startEndLine" and "--filepath" must be assigned. --startEndline helps in deciding what lines should be scrolled at the start of the game, --filepath contains the path to your file which contains all of the game's texts.
+The arguments "--startEndLine" and "--filepath" must be assigned. --startEndline helps in deciding until which line should be scrolled at the start of the game, --filepath contains the path to your file which contains all of the game's texts.
